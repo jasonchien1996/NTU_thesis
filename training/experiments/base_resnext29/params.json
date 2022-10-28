@@ -1,0 +1,18 @@
+{
+    "model_version": "deep",
+    "subset_percent": 1.0,
+    "augmentation": "yes",
+    "teacher": "resnext29",
+    "alpha": 0.5,
+    "temperature": 5.0,
+    "learning_rate": 0.1,
+    "momentum": 0.1,
+    "weight_decay": 0.0,
+    "dropout_rate": 0.1,
+    "width_multiplier": 1,
+    "batch_size": 128,
+    "num_epochs": 1,
+    "save_summary_steps": 100,
+    "num_workers": 4,
+    "swap": 0
+}
