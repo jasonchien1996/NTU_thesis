@@ -1,0 +1,13 @@
+1. git clone https://github.com/OpenMined/TenSEAL.git
+
+2. go to TenSEAL directory, e.g., cd /home/r09922146/TenSEAL
+
+3. replace "binding.cpp" "ckkstensor.py" "ckkstensor.cpp" "ckkstensor.h"
+
+4. git add .
+
+5. git commit -m "whatever"
+
+6. cd ..
+
+7. 安裝TenSEAL sudo python3 -m pip install -e 路徑 (需要使用 G++9 !!!), e.g., sudo python3 -m pip install -e /home/r09922146/TenSEAL
